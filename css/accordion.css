@@ -1,0 +1,32 @@
+﻿.accordion {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 80%;
+    margin: auto;
+}
+
+    .accordion .accord-item {
+        overflow: hidden;
+        transition: height .7s;
+    }
+
+.accord-head {
+    font-size: 2em;
+    cursor: pointer;
+    background: #a9e4f7; /* Old browsers */
+    background: -moz-linear-gradient(top, #a9e4f7 0%, #0fb4e7 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a9e4f7), color-stop(100%,#0fb4e7)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #a9e4f7 0%,#0fb4e7 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #a9e4f7 0%,#0fb4e7 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #a9e4f7 0%,#0fb4e7 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #a9e4f7 0%,#0fb4e7 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9e4f7', endColorstr='#0fb4e7',GradientType=0 ); /* IE6-9 */
+}
+
+    .accord-head:hover {
+        color: white;
+    }
+
+.accord-body {
+    background: rgba(180,180,180,.23);
+}
